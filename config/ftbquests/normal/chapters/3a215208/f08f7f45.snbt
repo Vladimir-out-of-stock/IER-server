@@ -1,0 +1,26 @@
+{
+	title: "Electric Fluids",
+	icon: "appliedenergistics2:part 1 520",
+	x: 11.5d,
+	y: 3.5d,
+	text: [
+		"§lThe ME Fluid Terminal allows you to access fluids in your ME System. You need to have Fluid Storage in your ME System to store fluids in it.",
+		"",
+		"§rPut the thing you want to put the fluid into (bucket/can/whatever) into the left slot, and click what you want to put into it. Or, you can put a filled fluid container into the left slot, and it will go into the system."
+	],
+	dependencies: [
+		"ea725382"
+	],
+	tasks: [{
+		uid: "afaf5e3a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 520"
+		}]
+	}],
+	rewards: [{
+		uid: "c9b069e8",
+		type: "random",
+		table: 10
+	}]
+}

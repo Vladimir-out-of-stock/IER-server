@@ -1,0 +1,27 @@
+{
+	title: "God Slayer",
+	icon: "avaritia:infinity_sword",
+	x: 15.0d,
+	y: 5.0d,
+	text: [
+		"§lWho made you their enemy that you had to create such a weapon!?"
+	],
+	dependencies: [
+		"fb47ef4e",
+		"6095a383"
+	],
+	tasks: [{
+		uid: "54c54666",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7b1f796",
+		type: "random",
+		table: 11
+	}]
+}
